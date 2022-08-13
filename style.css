@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body {
+  background-image: url(./Images/bg-image.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 0.5fr 1.5fr 0.5fr;
+  margin: 60px 40px 0px 40px;
+}
+
+nav h2 {
+  padding-top: 15px;
+  font-size: 180%;
+}
+
+nav .nav-left {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid white;
+  padding-bottom: 5px;
+}
+
+.telephone-number {
+  display: flex;
+  width: 260px;
+  padding-top: -35px;
+  margin-top: -15px;
+  border-bottom: 2px solid white;
+}
+
+nav .telephone-number .tele-image {
+  margin-top: 10px;
+  height: 40px;
+  width: 70px;
+}
+
+.hero {
+  padding: 80px 0px 0px 78px;
+  position: relative;
+}
+
+.hero .hero-main {
+  margin-top: 40px;
+  width: 800px;
+}
+
+.hero .hero-main h1 {
+  font-size: 500%;
+  text-transform: capitalize;
+}
+
+.hero .hero-main button {
+  font-size: 190%;
+  font-weight: 700;
+  padding: 25px 60px;
+  border-radius: 45px;
+  border: 3px solid white;
+  color: white;
+  background: transparent;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+
+.hero .card {
+  padding: 30px 30px;
+  background-color: rgb(49, 74, 92, 0.9);
+  border: none;
+  width: 300px;
+}
+
+.hero .card img {
+  width: 70px;
+
+  background-color: white;
+  border-radius: 40px;
+  padding: 0px 20px;
+  margin-bottom: 15px;
+}
+
+.hero .card h4 {
+  font-size: 120%;
+}
+
+.hero .puzzle {
+  position: absolute;
+  left: 1040px;
+  top: 50px;
+}
+
+.hero .bulb {
+  position: absolute;
+  left: 760px;
+  width: 245px;
+  margin-left: auto;
+}
+
+.hero .puzzle-line {
+  position: absolute;
+  left: 1270px;
+  top: 226px;
+  border-left: 2px solid white;
+  height: 70px;
+}
+
+.hero .bulb-line {
+  position: absolute;
+  left: 1066px;
+  border-top: 2px solid white;
+  top: 530px;
+  width: 100px;
+}
+
+.hero .ball {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-color: white;
+  border: none;
+}
+
+.hero .puzzle-ball {
+  position: absolute;
+  left: 1260px;
+  top: 296px;
+}
+
+.hero .bulb-ball {
+  position: absolute;
+  left: 1158px;
+  top: 516px;
+}
